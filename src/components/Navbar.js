@@ -120,17 +120,17 @@ const Navbar = () => {
 
   if(language === "PT"){
     MenuItems =[
-      { listIcon: <Home />, listText: "Página Principal", listPath: "/" },
-      { listIcon: <AssignmentInd />, listText: "Curriculo", listPath: "/resume" },
-      { listIcon: <Apps />, listText: "Portfólio", listPath: "/portfolio" },
-      { listIcon: <ContactMail />, listText: "Contacto", listPath: "/contact" },
+      { listIcon: <Home />, listText: "Página Principal", listPath: "/my-portfolio/" },
+      { listIcon: <AssignmentInd />, listText: "Curriculo", listPath: "/my-portfolio/resume" },
+      { listIcon: <Apps />, listText: "Portfólio", listPath: "/my-portfolio/portfolio" },
+      { listIcon: <ContactMail />, listText: "Contacto", listPath: "/my-portfolio/contact" },
     ];
   }else{
     MenuItems = [
-      { listIcon: <Home />, listText: "Home", listPath: "/" },
-      { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
-      { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
-      { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
+      { listIcon: <Home />, listText: "Home", listPath: "/my-portfolio/" },
+      { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/my-portfolio/resume" },
+      { listIcon: <Apps />, listText: "Portfolio", listPath: "/my-portfolio/portfolio" },
+      { listIcon: <ContactMail />, listText: "Contact", listPath: "/my-portfolio/contact" },
     ];
   }
 
