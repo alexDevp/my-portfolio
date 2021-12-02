@@ -100,9 +100,11 @@ const Contact = () => {
           <Typography variant="h5" className={classes.heading}>
             {labels[0].header}
           </Typography>
+          <form action="https://formspree.io/f/xgedwndw" method="POST">
           <InputField
             fullWidth={true}
             label={labels[0].name}
+            name="name"
             variant="outlined"
             inputProps={{ className: classes.input }}
           />
@@ -110,6 +112,7 @@ const Contact = () => {
             fullWidth={true}
             label={labels[0].email}
             variant="outlined"
+            name="email"
             inputProps={{ className: classes.input }}
             className={classes.field}
           />
@@ -117,6 +120,7 @@ const Contact = () => {
             fullWidth={true}
             label={labels[0].message}
             variant="outlined"
+            name="message"
             multiline
             rows={4}
             inputProps={{ className: classes.input }}
@@ -126,9 +130,11 @@ const Contact = () => {
             fullWidth={true}
             endIcon={<Send />}
             className={classes.button}
+            type="submit"
           >
             {labels[0].button}
           </Button>
+          </form>
         </Box>
       </Grid>
     </Box>
