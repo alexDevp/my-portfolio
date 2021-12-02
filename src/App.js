@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Home from "./components";
 import Resume from "./components/Resume";
@@ -15,12 +15,12 @@ function App() {
     <React.Fragment>
       <CssBaseline />
       <Navbar/>
-      <Switch>
+      <HashRouter>
         <Route exact path="/my-portfolio/" component={Home} />
         <Route exact path="/my-portfolio/resume" component={Resume} />
         <Route exact path="/my-portfolio/portfolio" component={Portfolio} />
         <Route exact path="/my-portfolio/contact" component={Contact} />
-      </Switch>
+      </HashRouter>
     </React.Fragment>
   );
 }
