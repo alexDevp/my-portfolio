@@ -52,7 +52,7 @@ const Header = () => {
             "Software Developer"
           ]}
           typeSpeed={30}
-          backSpeed={40}
+          backSpeed={30}
           loop
         />
       </Typography>

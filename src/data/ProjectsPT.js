@@ -7,7 +7,7 @@ const ProjectPT = [
         passa tempo suficiente esta confirma se os dados não se alteraram para atualizar a informação.`,
         folder: "Starwars",
         link: "https://github.com/alexDevp/StarWars",
-        imagesNumber: 3,
+        imagesNumber: 4,
         filename: "Starwars",
       },
       {
@@ -18,8 +18,20 @@ const ProjectPT = [
         á venda. Todos os produtos no website vêm de uma API REST feita para o mesmo.`,
         folder: "ECommerceMVC",
         link: "https://github.com/alexDevp/ECommerceMVCDotNet",
-        imagesNumber: 4,
+        imagesNumber: 6,
         filename: "ECommerceMVC",
+      },
+      {
+        name: "ETLA - Website Institucional Editável",
+        tag: ".NET | VisualBasic | SQL Server | MVC | Bootstrap | DevExpress ",
+        description: `Este website foi desenvolvido durante o estágio curricular realizado na ETLA. Esta aplicação consiste em um website
+        onde um utilizador pode consultar toda a informação que for disponibilizada sobre a instituição. Este website foi contruido com
+        a particularidade de ser fácilmente editável, é possivel fazer login com segurança para uma outra página alternativa onde
+        estão listados os conteúdos para edição.`,
+        folder: "EtlaPage",
+        link: "https://github.com/alexDevp/WebsiteETLA",
+        imagesNumber: 15,
+        filename: "EtlaPage",
       },
       {
         name: "Website de Gestão Escolar",
