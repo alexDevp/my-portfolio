@@ -4,28 +4,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/6edf22c7883da78820dcc980006a58e6.js"
   },
   {
-    "revision": "f405f8612e271be90baab64d47b67160",
+    "revision": "d4d777b6f88cc97b537c91d8ee10e97a",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "c1a43007f54189a67dac",
+    "revision": "4952cc35711c98fd41f6",
     "url": "/my-portfolio/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "a3432c6d6b0c84ca1051",
+    "revision": "0077cce27eccfb1999ff",
     "url": "/my-portfolio/static/css/main.0aa4724e.chunk.css"
   },
   {
-    "revision": "c1a43007f54189a67dac",
-    "url": "/my-portfolio/static/js/2.191c9b69.chunk.js"
+    "revision": "4952cc35711c98fd41f6",
+    "url": "/my-portfolio/static/js/2.f903734e.chunk.js"
   },
   {
     "revision": "c51d3f33a708debfae295d2740160c29",
-    "url": "/my-portfolio/static/js/2.191c9b69.chunk.js.LICENSE.txt"
+    "url": "/my-portfolio/static/js/2.f903734e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3432c6d6b0c84ca1051",
-    "url": "/my-portfolio/static/js/main.229b2339.chunk.js"
+    "revision": "0077cce27eccfb1999ff",
+    "url": "/my-portfolio/static/js/main.1eacfc70.chunk.js"
   },
   {
     "revision": "5d4511f3fcec99c33304",
@@ -220,8 +220,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/coffee-apple.7ab56a95.jpg"
   },
   {
-    "revision": "e2561697a8fe8805e57fc802a756f65c",
-    "url": "/my-portfolio/static/media/cv.e2561697.pdf"
+    "revision": "03e43031403ed0a295d43786d03f0132",
+    "url": "/my-portfolio/static/media/cv.03e43031.pdf"
   },
   {
     "revision": "f370c1e0adb80194dd3ea10e468bc69a",
