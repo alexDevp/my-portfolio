@@ -167,7 +167,7 @@ const Navbar = () => {
               <Menu className={classes.arrow} />
             </IconButton>
             <Typography variant="h5" className={classes.title}>
-              Portfolio
+              {MenuItems[2].listText}
             </Typography>
             <Box className={classes.languageChanger}>
               <ReactCountryFlag
@@ -196,8 +196,7 @@ const Navbar = () => {
         </AppBar>
       </Box>
       <Drawer open={open} anchor="left" onClose={() => setOpen(false)}>
-        {sideList()}
-        <Pdf language={languageCookie}/>       
+        {sideList()}     
         <Footer />
       </Drawer>
     </React.Fragment>

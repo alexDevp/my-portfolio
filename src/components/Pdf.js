@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-import Pagination from "@material-ui/lab/Pagination";
-import Slide from "@material-ui/core/Slide";
+
 import { Box } from "@material-ui/core";
 import { Button } from "@material-ui/core";
 import pdf from "./cv.pdf";

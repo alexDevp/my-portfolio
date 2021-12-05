@@ -6,6 +6,8 @@ import Box from "@material-ui/core/Box";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../avatar.jpg";
+import pdf from "./cv.pdf";
+import { Button } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
@@ -56,6 +58,8 @@ const Header = () => {
           loop
         />
       </Typography>
+      <Button href={pdf} download  style={{borderColor: "tomato", textTransform: "none", backgroundColor: "#511" ,color: "tan", textDecoration: "none", fontSize: "1rem", margin: "10px"}} variant="outlined">Download CV</Button>
+      
     </Box>
   );
 };
